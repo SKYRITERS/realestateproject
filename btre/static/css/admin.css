@@ -1,0 +1,44 @@
+/* This creates space beneath the logo and changes the color of the background  */
+
+#header {
+    height: 50px;
+    background: 10284e;
+    color: white;
+}
+
+/* This changes the colour of the administration to white */
+
+#branding h1{
+    color: white;
+}
+
+a:link,
+a:visited {
+    color: rgb(19, 19, 51);
+}
+
+div.breadcrumbs{
+    background: #30caa0;
+    color: 10284e;
+}
+div.breadcrumbs a{
+    color: black;
+}
+
+.object-tools a {
+    border-radius: 0;
+}
+
+.module h2, .module caption, .inhline-group h2 {
+    background: #30caa0
+}
+
+/* This customizes the submit buttons  */
+.button, input[type=submit], input[type=button], .submit-row input, a.button{
+    background: 10284e;
+    color: white;
+}
+
+.submit-row{
+    border-radius: 0;
+}
