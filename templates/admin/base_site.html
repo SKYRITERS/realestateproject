@@ -1,0 +1,19 @@
+{% extends 'admin/base.html' %}
+
+{% load static %}
+
+{% block branding %}
+
+<h1 id="head">
+    <img src="{% static 'img/logo.png' %}" alt=" BT Real Estate" height="40" width="64" class="brand_img"> Administration
+</h1>
+
+{% endblock %}
+
+<!-- if we want to edit the css, we have to add another block beneath and put a link to te css file -->
+
+{% block extrastyle %}
+
+<link rel="stylesheet" href="{% static 'css/admin.css' %}">
+
+{% endblock %}
